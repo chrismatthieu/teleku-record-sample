@@ -1,0 +1,1110 @@
+/!\ FAILSAFE /!\  Thu Jul 22 13:10:36 -0700 2010
+  Status: 500 Internal Server Error
+  Unknown database 'telekurecord_development'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/commands/server.rb:111
+    /Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Thu Jul 22 13:11:06 -0700 2010
+  Status: 500 Internal Server Error
+  Unknown database 'telekurecord_development'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/commands/server.rb:111
+    /Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Thu Jul 22 13:11:26 -0700 2010
+  Status: 500 Internal Server Error
+  Unknown database 'telekurecord_development'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/commands/server.rb:111
+    /Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Thu Jul 22 13:12:15 -0700 2010
+  Status: 500 Internal Server Error
+  Unknown database 'telekurecord_development'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    /Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/commands/server.rb:111
+    /Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (154.7ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (177.6ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDataFiles (20100722200603)
+  [4;36;1mSQL (160.0ms)[0m   [0;1mCREATE TABLE `data_files` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100722200603')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `data_files`[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mdescribe `data_files`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `data_files`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:13:40) [GET]
+Rendering app\views\upload\uploadfile.rhtml
+
+ActionView::MissingTemplate (Missing template app\views\upload\uploadfile.rhtml in view path app/views):
+  app/controllers/upload_controller.rb:3:in `index'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:14:41) [GET]
+Rendering upload/uploadfile
+
+ActionView::TemplateError (undefined method `start_form_tag' for #<ActionView::Base:0x1032123f8>) on line #3 of app/views/upload/uploadfile.html.erb:
+1: <h1>File Upload</h1>
+2: <%= start_form_tag ({:action => 'uploadFile'}, 
+3:                         :multipart => true) %>
+4: <p><label for="upload_file">Select File</label> : 
+5: <%= file_field 'upload', 'datafile' %></p>
+6: <%= submit_tag "Upload" %>
+
+    app/views/upload/uploadfile.html.erb:3
+    app/controllers/upload_controller.rb:3:in `index'
+
+Rendered rescues/_trace (44.6ms)
+Rendered rescues/_request_and_response (25.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:15:04) [GET]
+Rendering upload/uploadfile
+ERROR: compiling _run_erb_app47views47upload47uploadfile46html46erb RAISED compile error
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:7: syntax error, unexpected kEND
+; @output_buffer.concat(( end ).to_s); @output_buffer.concat "\n"
+                             ^
+Function body:           def _run_erb_app47views47upload47uploadfile46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>File Upload</h1>\n"
+; @output_buffer.concat(( form_tag ({:action => 'uploadFile'}, 
+                        :multipart => true) ).to_s); @output_buffer.concat "\n<p><label for=\"upload_file\">Select File</label> : \n"
+
+; @output_buffer.concat(( file_field 'upload', 'datafile' ).to_s); @output_buffer.concat "</p>\n"
+; @output_buffer.concat(( submit_tag "Upload" ).to_s); @output_buffer.concat "\n"
+; @output_buffer.concat(( end ).to_s); @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:11:in `compile!'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/topher/telekurecord/app/controllers/upload_controller.rb:3:in `index'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/commands/server.rb:111
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:7: syntax error, unexpected kEND
+; @output_buffer.concat(( end ).to_s); @output_buffer.concat "\n"
+                             ^) on line #7 of app/views/upload/uploadfile.html.erb:
+4: <p><label for="upload_file">Select File</label> : 
+5: <%= file_field 'upload', 'datafile' %></p>
+6: <%= submit_tag "Upload" %>
+7: <%= end %>
+
+    app/views/upload/uploadfile.html.erb:11:in `compile!'
+    app/controllers/upload_controller.rb:3:in `index'
+
+Rendered rescues/_trace (115.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:15:13) [GET]
+Rendering upload/uploadfile
+ERROR: compiling _run_erb_app47views47upload47uploadfile46html46erb RAISED compile error
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:9: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47upload47uploadfile46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>File Upload</h1>\n"
+; @output_buffer.concat(( form_tag ({:action => 'uploadFile'}, 
+                        :multipart => true) ).to_s); @output_buffer.concat "\n<p><label for=\"upload_file\">Select File</label> : \n"
+
+; @output_buffer.concat(( file_field 'upload', 'datafile' ).to_s); @output_buffer.concat "</p>\n"
+; @output_buffer.concat(( submit_tag "Upload" ).to_s); @output_buffer.concat "\n"
+;  end ; @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:9:in `compile!'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/topher/telekurecord/app/controllers/upload_controller.rb:3:in `index'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/commands/server.rb:111
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:9: syntax error, unexpected kENSURE, expecting $end) on line #9 of app/views/upload/uploadfile.html.erb:
+6: <%= submit_tag "Upload" %>
+7: <% end %>
+
+    app/views/upload/uploadfile.html.erb:9:in `compile!'
+    app/controllers/upload_controller.rb:3:in `index'
+
+Rendered rescues/_trace (40.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:15:22) [GET]
+Rendering upload/uploadfile
+ERROR: compiling _run_erb_app47views47upload47uploadfile46html46erb RAISED compile error
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:3: syntax error, unexpected ')'
+...      :multipart => true) do ).to_s); @output_buffer.concat ...
+                              ^
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:9: syntax error, unexpected kENSURE, expecting ')'
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:11: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47upload47uploadfile46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>File Upload</h1>\n"
+; @output_buffer.concat(( form_tag ({:action => 'uploadFile'}, 
+                        :multipart => true) do ).to_s); @output_buffer.concat "\n<p><label for=\"upload_file\">Select File</label> : \n"
+
+; @output_buffer.concat(( file_field 'upload', 'datafile' ).to_s); @output_buffer.concat "</p>\n"
+; @output_buffer.concat(( submit_tag "Upload" ).to_s); @output_buffer.concat "\n"
+;  end ; @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:11:in `compile!'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/topher/telekurecord/app/controllers/upload_controller.rb:3:in `index'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/commands/server.rb:111
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:3: syntax error, unexpected ')'
+...      :multipart => true) do ).to_s); @output_buffer.concat ...
+                              ^
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:9: syntax error, unexpected kENSURE, expecting ')'
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:11: syntax error, unexpected kEND, expecting ')') on line #3 of app/views/upload/uploadfile.html.erb:
+1: <h1>File Upload</h1>
+2: <%= form_tag ({:action => 'uploadFile'}, 
+3:                         :multipart => true) do %>
+4: <p><label for="upload_file">Select File</label> : 
+5: <%= file_field 'upload', 'datafile' %></p>
+6: <%= submit_tag "Upload" %>
+
+    app/views/upload/uploadfile.html.erb:11:in `compile!'
+    app/controllers/upload_controller.rb:3:in `index'
+
+Rendered rescues/_trace (109.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:15:35) [GET]
+Rendering upload/uploadfile
+ERROR: compiling _run_erb_app47views47upload47uploadfile46html46erb RAISED compile error
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:9: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47upload47uploadfile46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>File Upload</h1>\n"
+;  form_tag ({:action => 'uploadFile'}, 
+                        :multipart => true) ; @output_buffer.concat "\n<p><label for=\"upload_file\">Select File</label> : \n"
+
+; @output_buffer.concat(( file_field 'upload', 'datafile' ).to_s); @output_buffer.concat "</p>\n"
+; @output_buffer.concat(( submit_tag "Upload" ).to_s); @output_buffer.concat "\n"
+;  end ; @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:9:in `compile!'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/topher/telekurecord/app/controllers/upload_controller.rb:3:in `index'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/commands/server.rb:111
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:9: syntax error, unexpected kENSURE, expecting $end) on line #9 of app/views/upload/uploadfile.html.erb:
+6: <%= submit_tag "Upload" %>
+7: <% end %>
+
+    app/views/upload/uploadfile.html.erb:9:in `compile!'
+    app/controllers/upload_controller.rb:3:in `index'
+
+Rendered rescues/_trace (41.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:15:43) [GET]
+Rendering upload/uploadfile
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:16:01) [GET]
+Rendering upload/uploadfile
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:16:31) [GET]
+Rendering upload/uploadfile
+ERROR: compiling _run_erb_app47views47upload47uploadfile46html46erb RAISED compile error
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:3: syntax error, unexpected ')'
+...      :multipart => true) do ).to_s); @output_buffer.concat ...
+                              ^
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:8: syntax error, unexpected kENSURE, expecting ')'
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:10: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47upload47uploadfile46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>File Upload</h1>\n"
+; @output_buffer.concat(( form_tag ({:action => 'uploadFile'}, 
+                        :multipart => true) do ).to_s); @output_buffer.concat "\n<p><label for=\"upload_file\">Select File</label> : \n"
+
+; @output_buffer.concat(( file_field 'upload', 'datafile' ).to_s); @output_buffer.concat "</p>\n"
+; @output_buffer.concat(( submit_tag "Upload" ).to_s); @output_buffer.concat "\n"
+;  end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:10:in `compile!'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/topher/telekurecord/app/controllers/upload_controller.rb:3:in `index'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/commands/server.rb:111
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:3: syntax error, unexpected ')'
+...      :multipart => true) do ).to_s); @output_buffer.concat ...
+                              ^
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:8: syntax error, unexpected kENSURE, expecting ')'
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:10: syntax error, unexpected kEND, expecting ')') on line #3 of app/views/upload/uploadfile.html.erb:
+1: <h1>File Upload</h1>
+2: <%= form_tag ({:action => 'uploadFile'}, 
+3:                         :multipart => true) do %>
+4: <p><label for="upload_file">Select File</label> : 
+5: <%= file_field 'upload', 'datafile' %></p>
+6: <%= submit_tag "Upload" %>
+
+    app/views/upload/uploadfile.html.erb:10:in `compile!'
+    app/controllers/upload_controller.rb:3:in `index'
+
+Rendered rescues/_trace (42.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:16:34) [GET]
+Rendering upload/uploadfile
+ERROR: compiling _run_erb_app47views47upload47uploadfile46html46erb RAISED compile error
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:3: syntax error, unexpected ')'
+...      :multipart => true) do ).to_s); @output_buffer.concat ...
+                              ^
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:8: syntax error, unexpected kENSURE, expecting ')'
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:10: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47upload47uploadfile46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>File Upload</h1>\n"
+; @output_buffer.concat(( form_tag ({:action => 'uploadFile'}, 
+                        :multipart => true) do ).to_s); @output_buffer.concat "\n<p><label for=\"upload_file\">Select File</label> : \n"
+
+; @output_buffer.concat(( file_field 'upload', 'datafile' ).to_s); @output_buffer.concat "</p>\n"
+; @output_buffer.concat(( submit_tag "Upload" ).to_s); @output_buffer.concat "\n"
+;  end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:10:in `compile!'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/topher/telekurecord/app/controllers/upload_controller.rb:3:in `index'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/Users/topher/.rvm/gems/ruby-1.8.7-p174/gems/rails-2.3.8/lib/commands/server.rb:111
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/topher/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:3: syntax error, unexpected ')'
+...      :multipart => true) do ).to_s); @output_buffer.concat ...
+                              ^
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:8: syntax error, unexpected kENSURE, expecting ')'
+/Users/topher/telekurecord/app/views/upload/uploadfile.html.erb:10: syntax error, unexpected kEND, expecting ')') on line #3 of app/views/upload/uploadfile.html.erb:
+1: <h1>File Upload</h1>
+2: <%= form_tag ({:action => 'uploadFile'}, 
+3:                         :multipart => true) do %>
+4: <p><label for="upload_file">Select File</label> : 
+5: <%= file_field 'upload', 'datafile' %></p>
+6: <%= submit_tag "Upload" %>
+
+    app/views/upload/uploadfile.html.erb:10:in `compile!'
+    app/controllers/upload_controller.rb:3:in `index'
+
+Rendered rescues/_trace (118.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:16:54) [GET]
+Rendering upload/uploadfile
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-07-22 13:18:27) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/var/folders/dN/dNnbT8r5EbSuTjY31DJP8k+++TI/-Tmp-/RackMultipart20100722-65741-dkljg3-0>}, "authenticity_token"=>"6uvjZONKSPMyLZWplkZZB/YFGv/UZh7+rkkoxx2MCkw="}
+
+Errno::ENOENT (No such file or directory - public/data/encrypted.png):
+  app/models/data_file.rb:8:in `initialize'
+  app/models/data_file.rb:8:in `open'
+  app/models/data_file.rb:8:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (35.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (2.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-07-22 13:18:55) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/var/folders/dN/dNnbT8r5EbSuTjY31DJP8k+++TI/-Tmp-/RackMultipart20100722-65741-1m8idrz-0>}, "authenticity_token"=>"6uvjZONKSPMyLZWplkZZB/YFGv/UZh7+rkkoxx2MCkw="}
+Completed in 6ms (View: 0, DB: 2) | 200 OK [http://localhost/upload/uploadFile]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#uploadfile (for 127.0.0.1 at 2010-07-22 13:25:27) [POST]
+  Parameters: {"rec"=>#<File:/var/folders/dN/dNnbT8r5EbSuTjY31DJP8k+++TI/-Tmp-/RackMultipart20100722-65741-1esrasi-0>}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (108.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-22 13:27:28) [GET]
+
+ActionController::RoutingError (No route matches "/site_index.rss" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:29:52) [GET]
+Rendering upload/uploadfile
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://localhost/upload/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-07-22 13:30:00) [POST]
+  Parameters: {"commit"=>"Upload", "authenticity_token"=>"6uvjZONKSPMyLZWplkZZB/YFGv/UZh7+rkkoxx2MCkw=", "rec"=>{"datafile"=>#<File:/var/folders/dN/dNnbT8r5EbSuTjY31DJP8k+++TI/-Tmp-/RackMultipart20100722-65741-11f67qf-0>}}
+Completed in 36ms (View: 7, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#uploadfile (for 127.0.0.1 at 2010-07-22 13:31:33) [POST]
+  Parameters: {"rec"=>#<File:/var/folders/dN/dNnbT8r5EbSuTjY31DJP8k+++TI/-Tmp-/RackMultipart20100722-65919-rahgbq-0>}
+Rendering upload/uploadfile
+Completed in 37ms (View: 36, DB: 0) | 200 OK [http://web1.tunnlr.com/upload/uploadfile]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:34:09) [GET]
+Rendering upload/uploadfile
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/upload/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-07-22 13:34:14) [POST]
+  Parameters: {"commit"=>"Upload", "rec"=>{"datafile"=>#<File:/var/folders/dN/dNnbT8r5EbSuTjY31DJP8k+++TI/-Tmp-/RackMultipart20100722-65919-10v9jwo-0>}}
+Completed in 107ms (View: 81, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:37:13) [GET]
+Rendering upload/uploadfile
+
+ActionView::TemplateError (wrong number of arguments (1 for 2)) on line #5 of app/views/upload/uploadfile.html.erb:
+2: <%= form_tag ({:action => 'uploadFile'}, 
+3:                         :multipart => true) %>
+4: <p><label for="upload_file">Select File</label> : 
+5: <%= file_field 'rec' %></p>
+6: <%= submit_tag "Upload" %>
+7: </form>
+
+    app/views/upload/uploadfile.html.erb:5:in `file_field'
+    app/views/upload/uploadfile.html.erb:5
+    app/controllers/upload_controller.rb:7:in `index'
+
+Rendered rescues/_trace (49.8ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-07-22 13:40:04) [GET]
+Rendering upload/uploadfile
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/upload/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-07-22 13:40:10) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/var/folders/dN/dNnbT8r5EbSuTjY31DJP8k+++TI/-Tmp-/RackMultipart20100722-65919-labtkt-0>}}
+Completed in 7ms (View: 0, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#uploadTeleku (for 127.0.0.1 at 2010-07-22 13:40:50) [POST]
+  Parameters: {"rec"=>#<File:/var/folders/dN/dNnbT8r5EbSuTjY31DJP8k+++TI/-Tmp-/RackMultipart20100722-65919-1ozyp8n-0>}
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://web1.tunnlr.com/upload/uploadTeleku]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UploadController#uploadTeleku (for 127.0.0.1 at 2010-07-22 13:43:50) [POST]
+  Parameters: {"rec"=>#<File:/var/folders/dN/dNnbT8r5EbSuTjY31DJP8k+++TI/-Tmp-/RackMultipart20100722-65919-sg5u0x-0>}
+Completed in 98ms (View: 0, DB: 0) | 200 OK [http://web1.tunnlr.com/upload/uploadTeleku]

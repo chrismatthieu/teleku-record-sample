@@ -1,0 +1,8 @@
+Teleku is an Enterprise-grade, cloud-based RESTful Phone Web Service API for building speech & touch tone Voice and SMS phone applications! Control any phone with simple & open PhoneML XML or JSON Web responses that work with all Web programming languages. 
+
+This project is sample Ruby on Rails code for receiving a recorded voice file from Teleku.  The sample Teleku PhoneML would look something like the following:
+
+<phoneml>
+	<speak>please record a message</speak>
+	<record>http://acme.com/upload/uploadTeleku</record>
+</phoneml>
